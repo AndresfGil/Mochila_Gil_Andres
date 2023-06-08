@@ -1,0 +1,26 @@
+
+¿Que es un usuario root en Linux?
+
+R: En Linux, el usuario "root" es el superusuario o administrador del sistema. Tiene todos los privilegios y permisos para acceder y modificar cualquier archivo, directorio o configuración en el sistema. El usuario root se crea durante la instalación de Linux y su identificador de usuario (UID) es 0, lo que le otorga el mayor nivel de acceso.
+
+¿Porque Ubuntu no me deja establecer la contraseña durante la instalacion?
+
+R: Porque primero utiliza un usuario "sudo" en lugar de tener un usuario root con contraseña se basa en razones de seguridad y buenas prácticas. Al no establecer una contraseña para el usuario root durante la instalación, se evita que alguien acceda directamente a esa cuenta y realice acciones con amplios privilegios sin una autenticación adicional.
+
+¿Cuales son los procesos tipicos de Linux?¿Como identificarlos?
+
+R: Init (systemd): Es el primer proceso que se inicia al arrancar el sistema y tiene el ID de proceso (PID) 1
+Systemd: Es un sistema de administración de servicios y procesos utilizado en muchas distribuciones de Linux.
+Cron: Es un demonio que permite programar tareas para que se ejecuten en momentos específicos o de forma recurrente.
+SSHd: Es el demonio de Secure Shell (SSH) que permite conexiones seguras remotas al sistema.
+Apache/Nginx: Son servidores web populares utilizados para alojar sitios web. 
+MySQL/PostgreSQL: Son sistemas de gestión de bases de datos relacionales. 
+
+
+Para identificar los procesos en Linux, podemos utilizar varios comandos. Aquí están algunos de los más comunes:
+
+ps: Muestra los procesos en ejecución en el sistema. Por ejemplo, ps aux muestra todos los procesos del sistema.
+top: Proporciona una vista en tiempo real de los procesos en ejecución y su uso de recursos. Es especialmente útil para monitorear procesos en tiempo real y ver los más activos.
+htop: Similar a top, pero proporciona una interfaz más amigable y fácil de usar.
+pgrep: Permite buscar procesos según su nombre o atributos y muestra los PIDs correspondientes.
+pstree: Muestra una representación jerárquica de los procesos en forma de árbol.
