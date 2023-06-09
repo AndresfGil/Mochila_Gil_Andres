@@ -1,0 +1,15 @@
+¿Por que un lenguaje de programacion solo puede utilizarse en algunos sistemas operativos y en otros no?
+R: En primera medida por la implementacion del lenguaje, ya que cada lenguaje se desarrolla para la funcion en un sistema operativo en particular.
+
+Algunos sistemas operativos son mas comunes y populares para algunos lenguajes de programacion debido a la historia o preferencias de los desarrolladores.
+
+Aunque muchos lenguajes de programacion modernos son multiplataforma y tienen implementaciones y herramientas de desarrollo disponibles para una amplia gama de sistemas operativos.
+
+
+¿Que tipo de maquina virtual es VirtualBox?
+R:Es una solucion de virtualizacion de tipo 2, lo que significa que se ejecuta dentro de un sistema operativo host existente.
+
+¿Si tengo mas de una maquina virtual instalada y una se rompe, esto afecta a las demas?¿Por que?
+R:Generalmente si una de estas maquinas falla o se rompe, no afectara las demas ya que cada sistema operativo virtualizado proporciona un entorno aislado para cada maquina virtual, lo que quiere decir que cada una es independiente de las otras.
+
+
