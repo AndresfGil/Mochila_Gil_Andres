@@ -1,0 +1,8 @@
+Direccion IP privada:
+127.0.2.15
+
+Direccion MAC:
+08:00:27:29:7a:26
+
+Es diferente la IP publica y privada de nuestra maquina host?
+Si es diferente las dos direcciones IP
