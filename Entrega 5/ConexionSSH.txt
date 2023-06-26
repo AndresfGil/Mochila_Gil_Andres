@@ -1,0 +1,2 @@
+Ingrese a este repositorio por medio de mi sistema Host(Windows) a travez de SSH conectado a mi maquina virtual(ubuntu) y envie este archivo
+
